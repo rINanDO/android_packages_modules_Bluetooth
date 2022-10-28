@@ -103,9 +103,6 @@ cc_library {
     sanitize: {
         scs: true,
     },
-    apex_available: [
-        "com.android.bluetooth",
-    ],
     host_supported: true,
     min_sdk_version: "30",
 }

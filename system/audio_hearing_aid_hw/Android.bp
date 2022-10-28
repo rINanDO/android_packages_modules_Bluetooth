@@ -28,6 +28,7 @@ cc_library {
         "src/audio_hearing_aid_hw_utils.cc",
     ],
     apex_available: [
+        "//apex_available:platform",
         "com.android.bluetooth",
     ],
     shared_libs: [

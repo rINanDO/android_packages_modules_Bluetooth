@@ -99,10 +99,7 @@ cc_library_static {
             ],
         },
     },
-    min_sdk_version: "Tiramisu",
-    apex_available: [
-        "com.android.bluetooth",
-    ],
+    min_sdk_version: "Tiramisu"
 }
 
 // libosi unit tests for target and host
